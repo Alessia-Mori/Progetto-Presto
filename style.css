@@ -1,0 +1,199 @@
+:root{
+    --primary: beige;
+    --secondary: rgb(42, 40, 40);
+    --tertiary: grey;
+}
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.navbar {
+   /* border-bottom: 1px solid black; */
+    background-color: antiquewhite;
+    height: 70px;
+    transition: 0.5s;
+}
+
+.navLink:hover{
+text-decoration: underline;
+text-decoration-color: var(--tertiary);
+
+}
+
+
+.colorScritta{
+    color: var(--secondary);
+}
+
+.colorAranc{
+    color: white;
+}
+
+.img-background{
+    height: 90vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.361), rgba(255, 255, 255, 0.72)), url(./media/background1.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.paragraf2{
+    background-color: var(--tertiary);
+    border-radius: 0px 8px 8px 0px;
+    height: 70px;
+}
+
+.paragraf1{
+    background-color: white;
+    border-radius: 8px 0px 0px 8px;
+    height: 70px;
+
+}
+
+.proviamo{
+    margin-top: -40px;
+    margin-bottom: -30px;
+}
+
+.margin-bg {
+    background-color: var(--primary);
+    height: 500px;
+}
+
+.btn-tertiary {
+    background-color: var(--tertiary) !important;
+    color: white;
+}
+
+
+
+.img-article {
+    width: 245px;
+    height: 245px;
+}
+
+.customBg {
+    background-color: var(--primary);
+    height: 500px;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  swiper-container {
+    width: 300px;
+    height: 300px;
+    /* position: absolute; */
+    /* left: 50%; */
+    /* top: 50%; */
+    /* margin-left: -150px;
+    margin-top: -150px; */
+  }
+
+  swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  
+/* js Swiper */
+
+.swiper {
+    width: 300px;
+    height: 300px;
+  }
+
+  .card-size {
+    height: 300px;
+    width: 300px;
+  }
+
+  .accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+    background-color: var(--secondary);
+    border: 0px;
+    border-radius: 0px;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);}
+
+    .accordion-button:not(.collapsed) {
+        color: white;
+        background-color: var(--tertiary);
+    }
+
+    .cards-size {
+        width: 20%;
+        padding-bottom: 20px;
+    }
+
+    /* Sezione chi siamo  */
+
+    .circle{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: 2px dashed var(--secondary);
+    }
+
+    .vh-75{
+        height: 75vh;
+        }
+
+    .opener{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 2px solid var(--secondary);
+        cursor: pointer;
+        background-color: white;
+        position: absolute;
+        z-index:2;
+    }
+
+    .moved{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: aqua;
+        position: absolute;
+        transition: 0.5s;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url();
+    }
+
+    .img-top{
+        height: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url();
+        
+    }
+
+    .contact-card{
+        height: 400px;
+        width: 250px;
+        border: 2px solid var(--secondary);
+    }
+    
